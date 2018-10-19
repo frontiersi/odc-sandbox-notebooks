@@ -84,10 +84,10 @@ def calculate_indices(ds, index):
         desc = """Normalized Difference Buildup Index (NDBI) - A common index for detecting urbanization where NDBI = (SWIR1-NIR) / 
                 (SWIR1+NIR). """
         try:
-            indexout = ((ds.swir1-ds.nir)/(ds.swir1 - ds.nir))
+            indexout = ((ds.swir1-ds.nir)/(ds.swir1 + ds.nir))
         except AttributeError:
             try:
-                indexout = ((ds.nbar_swir_2-ds.nbar_nir_1)/(ds.nbar_swir_2 - ds.nbar_nir_1))
+                indexout = ((ds.nbar_swir_2-ds.nbar_nir_1)/(ds.nbar_swir_2 + ds.nbar_nir_1))
             except:
                 print('Error! NDBI requires swir1 and nir bands')  
                
