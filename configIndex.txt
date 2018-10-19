@@ -1,1 +1,60 @@
-{"extent" : "1.1919, 1.4509, 6.0809, 6.2218"}
+{
+    "module_load": 0,
+    "output_crs": "epsg:32756",
+    "lat": [
+        -24.928789,
+        -24.945678
+    ],
+    "lon": [
+        152.409179,
+        152.379315
+    ],
+    "product": "s2b_l1c_aws_pds",
+    "time": [
+        "2013-03-27",
+        "2021-09-02"
+    ],
+    "geoJSON": {
+        "type": "Feature",
+        "properties": {
+            "style": {
+                "stroke": true,
+                "color": "#0000FF",
+                "weight": 4,
+                "opacity": 0.5,
+                "fill": true,
+                "fillColor": null,
+                "fillOpacity": 0.2,
+                "showArea": true,
+                "clickable": true
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        152.379315,
+                        -24.945678
+                    ],
+                    [
+                        152.379315,
+                        -24.928789
+                    ],
+                    [
+                        152.409179,
+                        -24.928789
+                    ],
+                    [
+                        152.409179,
+                        -24.945678
+                    ],
+                    [
+                        152.379315,
+                        -24.945678
+                    ]
+                ]
+            ]
+        }
+    }
+}
