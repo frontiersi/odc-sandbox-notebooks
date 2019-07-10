@@ -1,0 +1,3 @@
+[submodule "dcal/utils"]
+	path = dcal/utils
+	url = https://github.com/ceos-seo/data_cube_utilities.git
